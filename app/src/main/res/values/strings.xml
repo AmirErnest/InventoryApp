@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <!-- Editor Activity Strings -->
+
+    <!-- no image content description -->
+    <string name="no_image_photo">No image photo</string>
+
+    <!-- Text hint for product name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Name</string>
+
+    <!-- Text hint for product price in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_price">Price</string>
+
+    <!-- Unit for product price (Euro) [CHAR LIMIT=5] -->
+    <string name="unit_product_price">€</string>
+
+    <!-- Label for product case "in stock or not" in the editor [CHAR LIMIT=30] -->
+    <string name="category_in_stock">In Stock</string>
+
+    <!-- plus and minus buttons -->
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+
+    <!-- Label for description information in the editor [CHAR LIMIT=30] -->
+    <string name="category_description">Description</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_description">Product Description</string>
+
+    <!-- supplier information -->
+    <string name="supplier_information">Supplier Information</string>
+
+    <!-- supplier name -->
+    <string name="supplier_hint">Name</string>
+
+    <!-- supplier phone -->
+    <string name="telephone_hint"> Phone number</string>
+
+    <!-- supplier email -->
+    <string name="email_hint"> E-mail</string>
+
+    <!-- order from supplier -->
+    <string name="order_from_supplier"> Order more? </string>
+
+    <!-- telephone image -->
+    <string name="telephone_image"> telephone image</string>
+
+    <!--  email image -->
+    <string name="email_image"> email image</string>
+
+    <!--  delete product -->
+    <string name="delete_product"> Delete Product</string>
+
+    <string name="delete_button"> Delete Product!</string>
+
+
+    <!-- arrays strings -->
+    <string name="product_coming_soon"> Coming soon</string>
+    <string name="product_yes"> Yes </string>
+    <string name="product_no"> No </string>
+
+
+    <!-- menu strings -->
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overflow menu option that deletes all products data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add Product</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!-- no negative quantity -->
+    <string name="no_negative_quantity"> Your quantity is already ZERO</string>
+
+    <!-- Catalog activity -->
+    <!-- Dummy data insertion failed -->
+    <string name="insertion_failed"> Insertion failed </string>
+
+    <!-- Dummy data insertion successful -->
+    <string name="insertion_successful"> Insertion done </string>
+
+    <!-- Title text for the empty view, which describes the empty store [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit empty here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a product [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a product</string>
+
+
+    <!-- product list item -->
+    <string name="sale_button"> Sale </string>
+
+
+    <!-- save product in the editor activity -->
+    <string name="no_title_error">Your product needs a name!</string>
+    <string name="no_price_error">Your product needs a valid price!</string>
+    <string name="no_email_error">Add a supplier Email so you can order more later!</string>
+    <string name="no_image_error">Each product needs an image</string>
+
+    <!-- Toast message in editor when new product has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">Product saved</string>
+
+    <!-- Toast message in editor when new product has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with saving product</string>
+
+    <!-- Toast message in editor when current product was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!-- Toast message in editor when current product has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating product</string>
+
+
+    <!--showUnsavedChangesDialog -->
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+
+    <!-- showDeleteConfirmationDialog && deleteProduct -->
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <!-- Toast message in editor when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Dialog message to ask the user to confirm deleting products [CHAR LIMIT=NONE] -->
+    <string name="delete_all_dialog_msg">Are you sure you want to delete all?</string>
+
+
+</resources>
